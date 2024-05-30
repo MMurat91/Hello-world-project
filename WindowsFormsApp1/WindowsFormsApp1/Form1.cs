@@ -16,10 +16,15 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-
+        int a = 6;
         private void button1_Click(object sender, EventArgs e)
         {
             label1.Text = "HELLO WORLD";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
